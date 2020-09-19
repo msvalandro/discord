@@ -21,7 +21,7 @@ export default createGlobalStyle`
     --primary: #36393f;
     --secondary: #2f3136;
     --tertiary: rgb(32, 34, 37);
-    --quarternary: #282b2f;
+    --quaternary: #282b2f;
     --quinary: #393d42;
     --senary: #828386;
 

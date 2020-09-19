@@ -1,9 +1,14 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Grid } from './styles';
+import ServerList from '../ServerList';
 
 const Layout: React.FC = () => {
-  return <Container>Layout</Container>;
+  return (
+    <Grid>
+      <ServerList />
+    </Grid>
+  );
 };
 
 export default Layout;
