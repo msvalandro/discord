@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, HashtagIcon, InviteIcon, SettingsIcon } from './styles';
 
-export interface Props {
+interface Props {
   channelName: string;
   selected?: boolean;
 }
